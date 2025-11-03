@@ -1,0 +1,1707 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="nb">
+<head><link rel="icon" type="image/ico" href="../favicon.ico" /><link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" /><link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" /><link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png" /><link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5" /><meta name="msapplication-TileColor" content="#557170" /><meta name="msapplication-TileImage" content="/mstile-144x144.png" /><link rel="manifest" href="../manifest.json" /><link rel="dns-prefetch" href="//ajax.googleapis.com" /><meta name="robots" content="nofollow" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="theme-color" content="#557170" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Artsobservasjoner er Norges største kunnskapsdugnad. Her kan du registrere funn av alle arter i Norge. Artsobservasjoner er for mange en digital felthåndbok – samtidig som det bidrar til å øke kunnskapen om naturmangfoldet i Norge." />
+    <meta property="og:image" content="http://www.artsobservasjoner.no/Content/Images/artsdatabanken_200x200.png" />
+    <meta property="og:image:type" content="image/png" /><meta property="og:image:width" content="200" /><meta property="og:image:height" content="200" /><title>
+	Artsobservasjoner - Artsliste
+</title><link href="/Content/StyleSheets/MasterCss?v=aMg6LdlTtsQkMpgjjzxv2I7-6T1NMfYTRpcwPMxfgbw1" rel="stylesheet"/>
+<link href="/Content/StyleSheets/Telerik/2013.2.611/TelerikCss?v=BHy5wI67LfJHR3Ff8Cl4sfJgvhAZub-ZJ_zBTThm2LA1" rel="stylesheet"/>
+<script src="/Content/MasterJs?v=eCiDf3Q5voGHZUJu68P-ExcAovH-h16yK8mMwGs6qWU1"></script>
+
+    
+    <script>
+        //<![CDATA[
+        var Artportalen_ApplicationPath = '/';
+        if (Artportalen_ApplicationPath == '/') { Artportalen_ApplicationPath = ''; }
+        $(document).ready(function() {
+            $.validator.methods.date = function (value, element) {
+                if (!value) { return true; }
+                if (Globalize.parseDate(value, null, Globalize.cultures["nb-NO"])) {
+                    return true;
+                }
+                return false;
+            };
+        });
+        //]]>
+    </script>
+    
+    <script src="/Resources/nb-NO"></script>
+    
+    <script src="/GroupProfiles/nb-NO?v=2"></script>
+    </head>
+
+<body class="">
+
+<div class="nocookiesorjavascript" id="noscriptmessage">
+    <noscript>Du må aktivere JavaScript i din nettleser for at siden skal fungere riktig.</noscript>
+</div>
+<div class="nocookiesorjavascript" id="nocookies">
+    Du må aktivere Cookies in din nettleser for at siden skal fungere riktig.
+</div>
+
+<script>
+    var gotoartsobsmobile = function() {
+        setTimeout(function() {
+            window.location = 'https://mobil.artsobservasjoner.no/';
+        }, 0);
+    };
+
+    var hidemobilebanner = function () {
+        var now = new Date();
+        var expires = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+        $.cookie("artsobsmobile", "2", { expires: expires, path: '/' });
+        $("#artsobsmobilebutton").hide();
+    };
+</script>
+<div id="artsobsmobilebutton" style="display: none;">
+    <div style="height: 55px;position: relative;"></div>
+    <div style="position: fixed;padding: 5px 5px 5px 10px;background: #fff;top: 0;width: 100%;">
+    Mobiltilpasset visning
+    <button onclick="gotoartsobsmobile()">
+        <img width="32" src="/Content/Images/artsobsmobile.png" alt="mobile friendly"/>
+    </button>
+    <div id="hidemobilebanner" style="float: right;margin-right:15px;font-size: 12px;">
+        <a href="#" onclick="hidemobilebanner()">Skjul <strong>X</strong></a>
+    </div>
+    </div>
+</div>
+
+<div id="header">
+    <a class="skip-to-content" href="#contentwrapper">Hopp til hovedinnholdet</a>
+    <div id="headerimage" class="container">
+        
+        <div id="logo">
+            <div id="logoimage" title="Artsobservasjoner" role="img" aria-label="Artsobservasjoner">
+                <a href="/">
+                        <span>Arts</span>observasjoner
+                    <small>Rapportsystem for arter</small>
+                </a>
+            </div>
+        </div>
+        <div id="usernavigation_wrapper">
+            <div id="usernavigation_inner" class="clearfix">
+            
+<ul id="usernavigation">
+
+    
+    <li class="usernav-li">
+            
+    
+    <a href="#"><span class="UI-Icon-Flag UI-Icon-Flag-nb-NO" title="norsk, bokm&#229;l (Norge)"></span><span>norsk, bokm&#229;l (Norge)</span></a>
+     
+            
+        <ul id="selectlanguage" class="usernav-sub" title="Velg språk">
+            
+    <li class="usernav-sub-li "><a href="/Resource/ChangeCulture?culture=en-GB"><span class="UI-Icon-Flag UI-Icon-Flag-en-GB"></span>English (United Kingdom)</a></li><li class="usernav-sub-li  selected"><a href="/Resource/ChangeCulture?culture=nb-NO"><span class="UI-Icon-Flag UI-Icon-Flag-nb-NO"></span>norsk, bokm&#229;l (Norge)</a></li>
+        </ul>
+    </li>
+    
+
+</ul>
+
+
+            </div>
+        </div>
+        <div id="headerimageinformation">
+            <div id="image-info-indikator">
+                <div id="image-info-box" class="clearfix">
+                    <strong>Art:</strong> <span id="headerimage-speciesname">Lunde</span><br />
+                    <strong>Foto:</strong> <span id="headerimage-photoby">&copy;&nbsp;Knut-Sverre Horn</span>
+                </div>
+            </div>
+        </div>
+        <div id="navigationplaceholder" class="clear">
+            <div id="navigationwrapper">
+                <div id="navigation" class="container clear clearfix css-navigation-enabled">
+                    
+<nav aria-label="Hovedmeny">
+    <ul id="leftNav">
+        <li id="HomeTab" class="tab"><a class="top inactive" href="/"><span class="rightcorner"><span class="icon home"></span>Hjem</span></a></li>
+        
+        <li id="ReportTab" class="tab dropdown has-submenu"><a class="top inactive" href="/SubmitSighting/Report"><span class="rightcorner"><span class="icon save"></span>Rapportere</span></a>
+            <div class="dropdownmenuInner">
+                <ul class="submenu">
+                    <li class="header"><a href="/SubmitSighting/Report">Rapportere</a></li>
+                    <li><a href="/SubmitSighting/Report">Rapporteringsskjema</a></li>
+                    <li><a href="/Diary/Add"> Journal</a></li>
+                    <li><a href="/ImportSighting">Importer observasjoner</a></li>
+                    <li class="header divider"><a href="/ReviewSighting">Kontroller funn</a></li>
+                    
+                </ul>
+            </div>
+        </li>
+        
+        <li id="SearchTab" class="tab dropdown has-submenu"><a class="top active" href="/ViewSighting/SearchSighting"><span class="rightcorner"><span class="icon search"></span>Søk funn</span></a>
+            <div class="dropdownmenuInner">
+                <ul class="submenu">
+                    <li class="header"><a href="/ViewSighting/SearchSighting">Søk funn</a></li>
+                    <li class="header divider"><a href="/SearchNavigation/CreateSearchRoute">Lenker til søkeresultat</a></li>
+                    
+                    <li class="header divider"><a href="/SightingDiscussion/SightingWithLatestComments">Vis siste funn med funnkommentarer</a></li>
+                    <li class="header divider"><a href="/Diary/SearchDiary">Søk i journalinnlegg</a></li>
+                    <li class="header divider"><a href="/Surveillance/Search">Søk overvåkingsfunn</a></li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="StatisticsTab" class="tab dropdown has-submenu"><a href="/List/Top/User/AllSpecies/AllYears/AnyArea/AnySite" class="top inactive"><span class="rightcorner"><span class="icon list"></span>Statistikk</span></a>
+            
+            <div id="statisticsContent" class="dropdownmenuInner">
+                <div class="nowrap">
+                    
+                    <ul class="submenu">
+                        
+                        <li class="header">
+                            <strong style="color: #000;">Alle arter</strong>
+                        </li>
+                        
+                        <li class="subheader">
+                            <ul>
+                                <li>Alle år</li>
+                                <li class="year">Årslister</li>
+                            </ul>
+                        </li>
+                        
+                        <li class="Users">
+                            <ul>
+                                <li><a class="total" href="/List/Top/User/AllSpecies/AllYears/AnyArea/AnySite">Observatører</a></li>
+                                <li><a class="year" href="/List/Top/User/AllSpecies/2025/AnyArea/AnySite">2025</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/Area/AllSpecies/AllYears/Fylke/AnySite">Fylkesligaen</a></li>
+                                <li><a class="year" href="/List/Top/Area/AllSpecies/2025/Fylke/AnySite">2025</a></li>
+                            </ul>
+                            
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/Area/AllSpecies/AllYears/Kommune/AnySite">Kommuneligaen</a></li>
+                                <li><a class="year" href="/List/Top/Area/AllSpecies/2025/Kommune/AnySite">2025</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/Site/Birds/AllYears/AnyArea/AnySite">Fuglelokalitetsligaen</a></li>
+                                <li><a class="year" href="/List/Top/Site/Birds/2025/AnyArea/AnySite">2025</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/AreaTicks/Fylke/AllSpecies">Flest fylkeskryss</a></li>
+                                <li><a class="year" href="/List/Top/AreaTicks/Fylke/AllSpecies/2025">2025</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/MonthTicks/AllSpecies">Flest månedskryss</a></li>
+                                <li><a class="year" href="/List/Top/MonthTicks/AllSpecies/2025">2025</a></li>
+                            </ul>
+                            
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/BestYearMonthLists/AllSpecies">Årsmånedslister</a></li>
+                                <li><a class="year" href="/List/Top/BestYearMonthLists/AllSpecies/2025">2025</a></li>
+                            </ul>
+                            
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/ReporterVolume/AllSpecies/AllYears/AnyArea/AnySite">Rapporteringsvolum</a></li>
+                                <li><a class="year" href="/List/Top/ReporterVolume/AllSpecies/2025/AnyArea/AnySite">2025</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/ObserverVolume/AllSpecies/AllYears/AnyArea/AnySite">Observasjonsvolum</a></li>
+                                <li><a class="year" href="/List/Top/ObserverVolume/AllSpecies/2025/AnyArea/AnySite">2025</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <ul>
+                                <li><a class="total" href="/List/Top/Media/AllSpecies/AllYears/AnyArea/AnySite">Fotograferingsligaen</a></li>
+                                <li><a class="year" href="/List/Top/Media/AllSpecies/2025/AnyArea/AnySite">2025</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <ul id="compareYear">
+                                <li><a class="total" href="/List/CompareSpecies/All/Alle personer/Totalt/Alle/Hele landet/Alle lokaliteter/With/Alle personer/Totalt/Alle/Hele landet/Alle lokaliteter/AllSpecies">Sammenlign lister</a></li>
+                                <li><a class="year" href="/List/CompareSpecies/All/Alle personer/2025/Alle/Hele landet/Alle lokaliteter/With/Alle personer/2025/Alle/Hele landet/Alle lokaliteter/AllSpecies">2025</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </li>
+        <li id="ThemesTab" class="tab dropdown has-submenu"><a class="top inactive" href="/EuroBirdwatch"><span class="rightcorner"><span class="icon images"></span>Temasider</span></a>
+            <div class="dropdownmenuInner">
+                <ul class="submenu">
+                    <li class="header"><b>Fugler</b></li>
+                    <li><a href="/EuroBirdwatch">EuroBirdwatch</a></li>
+                    <li class="header divider"><b>Atlas</b></li>
+                    <li><a href="/Atlas">Atlaskart</a></li>
+                    <li><a href="/AtlasSurvey">Atlasinventering</a></li>
+                    <li class="header divider"><strong>Funnkatalog</strong></li>
+
+                    
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000005">Karplanter</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000004">Moser</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000003">Lav</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000002">Sopp</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000001">Alger</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000031">Virvelløse dyr</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/252">Fugler</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000034">Amfibier og reptiler</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000032">Pattedyr</a>
+                        
+                    <li><a href="/Occurrence/TaxonOccurrence/4/1000033">Fisk</a>
+                        
+                </ul>
+            </div>
+        </li>
+        <li id="MediaTab" class="tab dropdown has-submenu"><a class="top inactive" href="/Media/Today"><span class="rightcorner"><span class="icon images"></span>Bilder</span></a>
+            <div class="dropdownmenuInner">
+                <ul class="submenu">
+                    <li class="header"><strong>Alle arter</strong></li>
+                    <li><a href="/Media/Today/Alla/1">Siste bilder</a></li>
+                    <li><a href="/Media/LastUploaded/Alla/1">Sist rapportert</a></li>
+                    <li><a href="/Media/LastComments/Alla/1">Siste bildekommentarer</a></li>
+
+                    
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <ul id="rightNav">
+        
+        <li class="tab"><a class="top inactive" href="/UserAccount"><span class="rightcorner"><span class="icon home"></span>Lag konto</span></a></li>
+        <li class="tab last"><a class="top inactive" href="/Logon"><span class="rightcorner"><span class="icon home"></span>Logg inn</span></a></li>
+        
+    </ul>
+</nav>
+<script>
+    $(document).ready(function () {
+            
+$('#compareYear').find('a').each(function(){ 
+            var oldUrl = $(this).attr("href"); // Get current url
+            var newUrl = oldUrl.replace(/\s/g,"%20");; // Create new url
+            $(this).attr("href", newUrl); // Set herf value
+        });
+   });
+</script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="contentwrapper">
+    <h1 class="offscreen">Artsobservasjoner - rapportsystem for arter i Norge</h1>
+    
+
+    <div id="GlobalSystemInformationMessage" class="hiddenfromprinting" style="display: none;">
+        <div class="message">
+            
+                <a href="/Home/SetGlobalSystemInformationMessage/?lastGlobalSystemInformationMessage=245" id="HideGlobalSystemInformationMessage">Skjul beskjed&nbsp;<strong>X</strong></a>
+            
+            <span></span>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            var currentVersion = parseInt('245');
+            if (-1 < currentVersion && $('#GlobalSystemInformationMessage div span').text().length > 1) {
+                $("#GlobalSystemInformationMessage").show();
+            }
+            $("#HideGlobalSystemInformationMessage").click(function (e) {
+                e.preventDefault();
+                var $globalMessage = $("#GlobalSystemInformationMessage").hide();
+                Artportalen.ajaxGet($(this).attr("href"), function () {
+                    $globalMessage.remove();
+                    return true;
+                });
+            });
+        });
+    </script>
+    
+    
+<ul id="content-tabs">
+    <li class="content-tabs-li"><a href="/ViewSighting/SearchSighting?storedSearchCriterias=10026975" class="content-tabs-a ">
+    <span class="content-tabs-corner"><span class="content-tabs-icon UI-Icon-16-Search"></span>Søk funn</span></a></li>
+    <li id="content-tabs-presentation" class="content-tabs-li content-tabs-li-submenu clearfix">
+        <a href="#"  class="content-tabs-a  content-tabs-a-active">
+            <span class="content-tabs-corner">
+                <span class="content-tabs-icon UI-Icon-16-Presentation"></span>
+                Presentere funn
+                <span class="content-tabs-icon content-tabs-icon-arrowdown"></span>
+            </span>
+        </a>
+        <div class="content-tabs-submenu css-navigation-enabled" id="viewSightingMode">
+            <div class="content-tabs-submenu-inner clearfix">
+                <ul>
+                    <li><a rel="nofollow" href='/ViewSighting/ViewSightingAsTable?storedSearchCriterias=10026975' class='ViewSightingAction'><span class="content-tabs-submenu-icon UI-Icon-16-List"></span><span class="content-tabs-submenu-text">Funnliste<small>Viser søkeresultat i en sorterbar liste.</small></span></a></li>
+                    <li><a rel="nofollow" href='/ViewSighting/ViewSightingAsMap?storedSearchCriterias=10026975'  class='ViewSightingAction'><span class="content-tabs-submenu-icon UI-Icon-16-MapWithSite"></span><span class="content-tabs-submenu-text">Kart<small>Viser søkeresultat på et kart</small></span></a></li>
+                    <li><a rel="nofollow" href='/ViewSighting/ViewSightingAsMapGrid?storedSearchCriterias=10026975'  class='ViewSightingAction'><span class="content-tabs-submenu-icon UI-Icon-16-AtlasMap"></span><span class="content-tabs-submenu-text">Rasterkart<small>Presenterer søkeresultatet som rasterruter på et kart</small></span></a></li>
+                    <li><a rel="nofollow" href='/ViewSighting/ViewSightingAsExportExcel?storedSearchCriterias=10026975' class='ViewSightingAction'><span class="content-tabs-submenu-icon UI-Icon-16-ImportPaste"></span><span class="content-tabs-submenu-text">Eksportere data<small>Eksporterer data till Excel-fil</small></span></a></li>
+                    <li><a rel="nofollow" href='/ViewSighting/ViewSightingAsChart?storedSearchCriterias=10026975' class='ViewSightingAction'><span class="content-tabs-submenu-icon UI-Icon-16-Chart"></span><span class="content-tabs-submenu-text">Histogram<small>Viser søkeresultatet som histogram med fordeling av funn over tid.</small></span></a></li>
+                    <li><a rel="nofollow" href='/ViewSighting/ViewSpeciesList?storedSearchCriterias=10026975'  class='ViewSightingAction' ><span class="content-tabs-submenu-icon UI-Icon-16-SpeciesList"></span><span class="content-tabs-submenu-text">Artsliste<small>Viser artsliste basert på ditt søk.</small></span></a></li>
+                    <li><a rel="nofollow" href='/ViewSighting/ViewSightingAsGallery?storedSearchCriterias=10026975'  class='ViewSightingAction' ><span class="content-tabs-submenu-icon UI-Icon-16-ViewGallery"></span><span class="content-tabs-submenu-text">Galleri<small>Viser resultatet av ditt bildesøk.</small></span></a></li>
+                    <li class="last"><a rel="nofollow" href='/ViewSighting/ViewSightingAsLabels?storedSearchCriterias=10026975' class='ViewSightingAction'><span class="content-tabs-submenu-icon UI-Icon-16-Tags"></span><span class="content-tabs-submenu-text">Etiketter<small>Viser søkeresultatet som utskrivbare etiketter</small></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </li>
+    
+
+    <li style="float:right;line-height: 35px;">
+        
+<a class="js-copy"
+    style="text-decoration: none; border: 1px solid #D8D9DA; border-radius: 5px; padding: 5px 10px; background: white;"
+    href="http://www.artsobservasjoner.no/Share/ViewSpeciesList/10026975/D170948B" />✂ Del søk
+</a>
+<script>
+    $(function() {
+        function copyTextToClipboard(text) {
+            var textArea = document.createElement("textarea");
+            textArea.style.position = 'fixed';
+            textArea.style.top = 0;
+            textArea.style.left = 0;
+            textArea.style.width = '2em';
+            textArea.style.height = '2em';
+            textArea.style.padding = 0;
+            textArea.style.border = 'none';
+            textArea.style.outline = 'none';
+            textArea.style.boxShadow = 'none';
+            textArea.style.background = 'transparent';
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            try {
+                var successful = document.execCommand('copy');
+                if (successful) {
+                    Artportalen.AjaxNotificationMessage('Lenken til ditt søk er blitt kopiert til din utklippstavle.', true, 'success', { offsetBottom : 60, delayTime : 3000 });
+                }
+                else {
+                    fallbackBox(text);
+                }
+            } catch (err) {
+                fallbackBox(text);
+            }
+            document.body.removeChild(textArea);
+        }
+
+        function fallbackBox(text) {
+            $( ".js-copy" ).after(function() {
+                return "<input class='js-copy-fallback' readoly='readonly' value='"+text+"'>";
+            });
+            $(".js-copy-fallback").select();
+        }
+
+        $('.js-copy').on('click', function(event) {
+            event.preventDefault();
+            copyTextToClipboard($(this).attr('href'));
+
+            var ajaxUrl = [window.Artportalen_ApplicationPath, '/SearchNavigation/CreateSharedSearch/', 10026975].join('');
+            $.ajax({ url: ajaxUrl, data: { key: 'D170948B' } });
+        });
+    });
+</script>
+
+    </li>
+</ul>
+
+
+    
+    
+    <div id="content" class="container">
+        
+<div id="main" class="span-24 last" style="margin-top:10px;">
+    <h2 class="main">Artsliste&nbsp;<small class="images">(72&nbsp;takson, 258&nbsp;Totalt)</small></h2>
+    <form action="/ViewSighting/ViewSpeciesList" id="PresentationViewReload" method="post"><input name="__RequestVerificationToken" type="hidden" value="V1LAZcMwSsZTGBYUo5UmVQb-VG-EeObQld-7yj9A72UA4GWXR_1O4KvIm6jEHppADwBsykjk_gMwXVVpkYVvyoX8Ai01" />
+    <input id="ResetCriteriaLabel" name="ResetCriteriaLabel" type="hidden" value="" />
+    <input data-val="true" data-val-number="The field Id must be a number." id="StoredSearchCriterias_Id" name="StoredSearchCriterias.Id" type="hidden" value="10026975" />
+</form>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // allow clicking on the criterias to reset them to default values
+        $(".selectedUserFilter").not('.Disabled').click(function () {
+            $(this).hide();
+            $('#ResetCriteriaLabel').val($(this).attr('data-label'));
+            $('#PresentationViewReload').submit();
+        });
+    });
+</script>
+    
+    <!--- Left column --->
+    <div class="span-14">
+        
+        
+        <div style="  margin: 15px 0 0; padding: 10px; background-color: #EDF9FF; border-radius: 5px;">
+            <b>Obs!</b> Her vises en sammenstilling av hva som er rapportert ifølge de angitte søkeparametrene. Dette søkeresultatet viser alle taksoner. Det inkluderer slekter, hybrider, underarter, uspontane arter og annet. Dette til forskjell fra listene som finnes under fanen "Statistikk", som bare viser arter.
+        </div>
+        
+        
+        <div  id="speciesList">
+<!--- included here for printing styling ---->
+<style type="text/css">  
+    #printBody { font-size: 12px; font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+    ul.listofspecies { list-style-type: none;margin: 5px 0 0; }
+    ul.listofspecies h3 { font-size: 1.5em; line-height: 1; margin: 15px 0 5px; }
+    ul.listofspecies .cnt { text-align: right; padding-right: 1em;color: #666;font-size: 11px; display: inline-block; width: 3em; position: absolute; left: 0; top: 3px; }
+    ul.listofspecies .sightingscount { position: absolute; right: 0; bottom: 2px; }
+    ul.listofspecies .parenttaxa { color: #666; }
+    ul.listofspecies .childtaxa { padding-left: 1.5em; }
+    ul.listofspecies .childtaxa:before { content: ' └— '; color: #999; }
+    ul.listofspecies em.auktor { font-style:normal; font-variant:small-caps; }
+    ul.listofspecies li { overflow: hidden; position: relative; }
+    ul.listofspecies li.speciesgroup {position: relative; background-color: #fff; border-bottom: 1px solid #666;overflow: hidden; }
+    ul.listofspecies li.speciesgroup small { position: absolute;right: 0;bottom: 5px; }
+    ul.listofspecies li.taxon { padding: 2px 0 2px 3.5em; border-bottom: 1px dashed #DDD; }
+    ul.listofspecies li.taxon:hover { background-color: #eee !important; }
+    ul.listofspecies li.taxon:nth-child(odd) { background-color: #fafafa; }
+    .loadmore {cursor: pointer; display: block; font-size: 18px; padding: 10px; margin: 15px 0; border: 1px solid #1188C1; text-align: center; text-decoration: none; border-radius: 5px; background-color: #FAFAFA; }
+    #ajaxloader { display: none; }
+
+    .tag { background-color: #EDF9FF; border-radius: 5px; display: inline-block; font-size: 13px; padding: 5px 10px; margin: 0 5px 5px 0; border: 1px solid #9AB4D1; box-shadow: 2px 2px 0 rgba(0,0,0,0.05); }
+    .tagwrapper { margin: 15px 0 0 15px; padding: 15px 15px 10px; box-shadow: 2px 2px 5px #CCC inset; background-color: #FAFAFA; border: 1px solid #E3E3E3; border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
+    .tagwrapper h4 { margin: 0 0 5px; }
+    .tagwrapper h4 span { float: right; }
+
+    #rightColumn.fixed { position: fixed; }
+
+    .clonedHeader { position:fixed; top:33px; z-index: 999; background-color: #fff; box-shadow: 0 2px 3px -3px rgba(0, 0, 0, 0.7); border-bottom: 1px solid #999; }
+    .clonedHeader h3 { margin: 0; line-height: 37px; }
+    .clonedHeader small { float: right; display: block; margin-top: 15px; }
+    .clonedHeader.sticky { position: absolute; }
+
+    abbr.redlistabbr { color: #CC0000; font-weight: bold; float: none; text-transform: uppercase; margin-left: 5px; }
+    abbr.redlist_SE, abbr.redlist_HI { color: #000; border-bottom: 1px dotted #666666; }
+    abbr.redlist_PH, abbr.redlist_LO, abbr.redlist_NK, abbr.redlist_NR { color: #696969; border-bottom: 1px dotted #666666; }
+
+    ul.listofspecies { margin-left: 0px;padding-left: 0px; }
+</style>
+
+        <ul class="listofspecies" id="taxonlist">
+
+            <li class="speciesgroup"><h3><span>Fugler (72)</span></h3><small>Antall funn</small></li>
+            
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3495">2</a></span>
+                <span class="cnt">1.</span>
+                
+                <span data-taxonid="3495"  >
+                    <b>kanadagås</b>&nbsp;<i>Branta canadensis</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="HI - Høy risiko" class="redlistabbr redlist_HI">
+                    HI
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3499">2</a></span>
+                <span class="cnt">2.</span>
+                
+                <span data-taxonid="3499"  >
+                    <b>hvitkinngås</b>&nbsp;<i>Branta leucopsis</i>&nbsp;(Bechstein, 1803)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3471">3</a></span>
+                <span class="cnt">3.</span>
+                
+                <span data-taxonid="3471"  >
+                    <b>grågås</b>&nbsp;<i>Anser anser</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3479">1</a></span>
+                <span class="cnt">4.</span>
+                
+                <span data-taxonid="3479"  >
+                    <b>taigasædgås</b>&nbsp;<i>Anser fabalis</i>&nbsp;(Latham, 1787)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sterkt truet" class="redlistabbr redlist_EN">
+                    EN
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3473">4</a></span>
+                <span class="cnt">5.</span>
+                
+                <span data-taxonid="3473"  >
+                    <b>kortnebbgås</b>&nbsp;<i>Anser brachyrhynchus</i>&nbsp;Baillon, 1834
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3510">8</a></span>
+                <span class="cnt">6.</span>
+                
+                <span data-taxonid="3510"  >
+                    <b>sangsvane</b>&nbsp;<i>Cygnus cygnus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3460">2</a></span>
+                <span class="cnt">7.</span>
+                
+                <span data-taxonid="3460"  >
+                    <b>brunnakke</b>&nbsp;<i>Mareca penelope</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3461">8</a></span>
+                <span class="cnt">8.</span>
+                
+                <span data-taxonid="3461"  >
+                    <b>stokkand</b>&nbsp;<i>Anas platyrhynchos</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3449">1</a></span>
+                <span class="cnt">9.</span>
+                
+                <span data-taxonid="3449"  >
+                    <b>stjertand</b>&nbsp;<i>Anas acuta</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3454">3</a></span>
+                <span class="cnt">10.</span>
+                
+                <span data-taxonid="3454"  >
+                    <b>krikkand</b>&nbsp;<i>Anas crecca</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3487">1</a></span>
+                <span class="cnt">11.</span>
+                
+                <span data-taxonid="3487"  >
+                    <b>toppand</b>&nbsp;<i>Aythya fuligula</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3488">2</a></span>
+                <span class="cnt">12.</span>
+                
+                <span data-taxonid="3488"  >
+                    <b>bergand</b>&nbsp;<i>Aythya marila</i>&nbsp;(Linnaeus, 1761)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sterkt truet" class="redlistabbr redlist_EN">
+                    EN
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3534">6</a></span>
+                <span class="cnt">13.</span>
+                
+                <span data-taxonid="3534"  >
+                    <b>praktærfugl</b>&nbsp;<i>Somateria spectabilis</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3531">6</a></span>
+                <span class="cnt">14.</span>
+                
+                <span data-taxonid="3531"  >
+                    <b>ærfugl</b>&nbsp;<i>Somateria mollissima</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3518">1</a></span>
+                <span class="cnt">15.</span>
+                
+                <span data-taxonid="3518"  >
+                    <b>svartand</b>&nbsp;<i>Melanitta nigra</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3506">6</a></span>
+                <span class="cnt">16.</span>
+                
+                <span data-taxonid="3506"  >
+                    <b>havelle</b>&nbsp;<i>Clangula hyemalis</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Nær truet" class="redlistabbr redlist_NT">
+                    NT
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3501">4</a></span>
+                <span class="cnt">17.</span>
+                
+                <span data-taxonid="3501"  >
+                    <b>kvinand</b>&nbsp;<i>Bucephala clangula</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3523">1</a></span>
+                <span class="cnt">18.</span>
+                
+                <span data-taxonid="3523"  >
+                    <b>laksand</b>&nbsp;<i>Mergus merganser</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4003">2</a></span>
+                <span class="cnt">19.</span>
+                
+                <span data-taxonid="4003"  >
+                    <b>bydue</b>&nbsp;<i>Columba livia</i>&nbsp;J. F. Gmelin, 1789
+                </span>
+                <span></span>
+                
+                <abbr original-title="Ikke vurdert" class="redlistabbr redlist_NR">
+                    NR
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4004">1</a></span>
+                <span class="cnt">20.</span>
+                
+                <span data-taxonid="4003" class="parenttaxa">
+                    <b>bydue</b>&nbsp;<i>Columba livia</i>&nbsp;J. F. Gmelin, 1789
+                </span>
+                <br />
+                
+                <span data-taxonid="4004"  class="childtaxa">
+                    <b>bydue</b>&nbsp;<i>Columba livia</i>&nbsp;
+                </span>
+                <span></span>
+                
+                <abbr original-title="Ikke vurdert" class="redlistabbr redlist_NR">
+                    NR
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4007">1</a></span>
+                <span class="cnt">21.</span>
+                
+                <span data-taxonid="4007"  >
+                    <b>ringdue</b>&nbsp;<i>Columba palumbus</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3788">1</a></span>
+                <span class="cnt">22.</span>
+                
+                <span data-taxonid="3788"  >
+                    <b>rugde</b>&nbsp;<i>Scolopax rusticola</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3671">2</a></span>
+                <span class="cnt">23.</span>
+                
+                <span data-taxonid="3671"  >
+                    <b>hettemåke</b>&nbsp;<i>Chroicocephalus ridibundus</i>&nbsp;(Linnaeus, 1766)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Kritisk truet" class="redlistabbr redlist_CR">
+                    CR
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3681">1</a></span>
+                <span class="cnt">24.</span>
+                
+                <span data-taxonid="3681"  >
+                    <b>fiskemåke</b>&nbsp;<i>Larus canus</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3677">5</a></span>
+                <span class="cnt">25.</span>
+                
+                <span data-taxonid="3677"  >
+                    <b>gråmåke</b>&nbsp;<i>Larus argentatus</i>&nbsp;Pontoppidan, 1763
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3684">1</a></span>
+                <span class="cnt">26.</span>
+                
+                <span data-taxonid="3684"  >
+                    <b>sildemåke</b>&nbsp;<i>Larus fuscus</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3599">5</a></span>
+                <span class="cnt">27.</span>
+                
+                <span data-taxonid="3599"  >
+                    <b>alke</b>&nbsp;<i>Alca torda</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3926">1</a></span>
+                <span class="cnt">28.</span>
+                
+                <span data-taxonid="3926"  >
+                    <b>smålom</b>&nbsp;<i>Gavia stellata</i>&nbsp;(Pontoppidan, 1763)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3935">4</a></span>
+                <span class="cnt">29.</span>
+                
+                <span data-taxonid="3935"  >
+                    <b>storskarv</b>&nbsp;<i>Phalacrocorax carbo</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Nær truet" class="redlistabbr redlist_NT">
+                    NT
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3559">1</a></span>
+                <span class="cnt">30.</span>
+                
+                <span data-taxonid="3559"  >
+                    <b>gråhegre</b>&nbsp;<i>Ardea cinerea</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3856">3</a></span>
+                <span class="cnt">31.</span>
+                
+                <span data-taxonid="3856"  >
+                    <b>spurvehauk</b>&nbsp;<i>Accipiter nisus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3853">2</a></span>
+                <span class="cnt">32.</span>
+                
+                <span data-taxonid="3853"  >
+                    <b>hønsehauk</b>&nbsp;<i>Astur gentilis </i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=3887">1</a></span>
+                <span class="cnt">33.</span>
+                
+                <span data-taxonid="3887"  >
+                    <b>havørn</b>&nbsp;<i>Haliaeetus albicilla</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4576">2</a></span>
+                <span class="cnt">34.</span>
+                
+                <span data-taxonid="4576"  >
+                    <b>flaggspett</b>&nbsp;<i>Dendrocopos major</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4582">2</a></span>
+                <span class="cnt">35.</span>
+                
+                <span data-taxonid="4582"  >
+                    <b>svartspett</b>&nbsp;<i>Dryocopus martius</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4298">1</a></span>
+                <span class="cnt">36.</span>
+                
+                <span data-taxonid="4298"  >
+                    <b>varsler</b>&nbsp;<i>Lanius excubitor</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4180">2</a></span>
+                <span class="cnt">37.</span>
+                
+                <span data-taxonid="4180"  >
+                    <b>lavskrike</b>&nbsp;<i>Perisoreus infaustus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4173">1</a></span>
+                <span class="cnt">38.</span>
+                
+                <span data-taxonid="4173"  >
+                    <b>nøtteskrike</b>&nbsp;<i>Garrulus glandarius</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4183">9</a></span>
+                <span class="cnt">39.</span>
+                
+                <span data-taxonid="4183"  >
+                    <b>skjære</b>&nbsp;<i>Pica pica</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4176">5</a></span>
+                <span class="cnt">40.</span>
+                
+                <span data-taxonid="4176"  >
+                    <b>nøttekråke</b>&nbsp;<i>Nucifraga caryocatactes</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4170">3</a></span>
+                <span class="cnt">41.</span>
+                
+                <span data-taxonid="4170"  >
+                    <b>kaie</b>&nbsp;<i>Coloeus monedula</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4168">1</a></span>
+                <span class="cnt">42.</span>
+                
+                <span data-taxonid="4168"  >
+                    <b>kornkråke</b>&nbsp;<i>Corvus frugilegus</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4164">3</a></span>
+                <span class="cnt">43.</span>
+                
+                <span data-taxonid="4164"  >
+                    <b>kråke</b>&nbsp;<i>Corvus cornix</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4162">6</a></span>
+                <span class="cnt">44.</span>
+                
+                <span data-taxonid="4162"  >
+                    <b>ravn</b>&nbsp;<i>Corvus corax</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4140">5</a></span>
+                <span class="cnt">45.</span>
+                
+                <span data-taxonid="4140"  >
+                    <b>sidensvans</b>&nbsp;<i>Bombycilla garrulus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4375">4</a></span>
+                <span class="cnt">46.</span>
+                
+                <span data-taxonid="4375"  >
+                    <b>svartmeis</b>&nbsp;<i>Periparus ater</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4369">1</a></span>
+                <span class="cnt">47.</span>
+                
+                <span data-taxonid="4369"  >
+                    <b>toppmeis</b>&nbsp;<i>Lophophanes cristatus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4385">1</a></span>
+                <span class="cnt">48.</span>
+                
+                <span data-taxonid="4385"  >
+                    <b>løvmeis</b>&nbsp;<i>Poecile palustris</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4382">4</a></span>
+                <span class="cnt">49.</span>
+                
+                <span data-taxonid="4382"  >
+                    <b>granmeis</b>&nbsp;<i>Poecile montanus</i>&nbsp;(Conrad von Baldenstein, 1827)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4365">12</a></span>
+                <span class="cnt">50.</span>
+                
+                <span data-taxonid="4365"  >
+                    <b>blåmeis</b>&nbsp;<i>Cyanistes caeruleus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4372">13</a></span>
+                <span class="cnt">51.</span>
+                
+                <span data-taxonid="4372"  >
+                    <b>kjøttmeis</b>&nbsp;<i>Parus major</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4116">2</a></span>
+                <span class="cnt">52.</span>
+                
+                <span data-taxonid="4116"  >
+                    <b>stjertmeis</b>&nbsp;<i>Aegithalos caudatus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4481">3</a></span>
+                <span class="cnt">53.</span>
+                
+                <span data-taxonid="4481"  >
+                    <b>munk</b>&nbsp;<i>Sylvia atricapilla</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4478">8</a></span>
+                <span class="cnt">54.</span>
+                
+                <span data-taxonid="4478"  >
+                    <b>fuglekonge</b>&nbsp;<i>Regulus regulus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4498">10</a></span>
+                <span class="cnt">55.</span>
+                
+                <span data-taxonid="4498"  >
+                    <b>gjerdesmett</b>&nbsp;<i>Troglodytes troglodytes</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4415">7</a></span>
+                <span class="cnt">56.</span>
+                
+                <span data-taxonid="4415"  >
+                    <b>spettmeis</b>&nbsp;<i>Sitta europaea</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4154">8</a></span>
+                <span class="cnt">57.</span>
+                
+                <span data-taxonid="4154"  >
+                    <b>trekryper</b>&nbsp;<i>Certhia familiaris</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4426">1</a></span>
+                <span class="cnt">58.</span>
+                
+                <span data-taxonid="4426"  >
+                    <b>stær</b>&nbsp;<i>Sturnus vulgaris</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+                <abbr original-title="Nær truet" class="redlistabbr redlist_NT">
+                    NT
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4557">1</a></span>
+                <span class="cnt">59.</span>
+                
+                <span data-taxonid="4557"  >
+                    <b>måltrost</b>&nbsp;<i>Turdus philomelos</i>&nbsp;C. L. Brehm, 1831
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4547">3</a></span>
+                <span class="cnt">60.</span>
+                
+                <span data-taxonid="4547"  >
+                    <b>rødvingetrost</b>&nbsp;<i>Turdus iliacus</i>&nbsp;Linnaeus, 1766
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4550">4</a></span>
+                <span class="cnt">61.</span>
+                
+                <span data-taxonid="4550"  >
+                    <b>svarttrost</b>&nbsp;<i>Turdus merula</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4559">3</a></span>
+                <span class="cnt">62.</span>
+                
+                <span data-taxonid="4559"  >
+                    <b>gråtrost</b>&nbsp;<i>Turdus pilaris</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4507">2</a></span>
+                <span class="cnt">63.</span>
+                
+                <span data-taxonid="4507"  >
+                    <b>rødstrupe</b>&nbsp;<i>Erithacus rubecula</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4400">2</a></span>
+                <span class="cnt">64.</span>
+                
+                <span data-taxonid="4400"  >
+                    <b>pilfink</b>&nbsp;<i>Passer montanus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4397">1</a></span>
+                <span class="cnt">65.</span>
+                
+                <span data-taxonid="4397"  >
+                    <b>gråspurv</b>&nbsp;<i>Passer domesticus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Nær truet" class="redlistabbr redlist_NT">
+                    NT
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4250">5</a></span>
+                <span class="cnt">66.</span>
+                
+                <span data-taxonid="4250"  >
+                    <b>bokfink</b>&nbsp;<i>Fringilla coelebs</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4252">3</a></span>
+                <span class="cnt">67.</span>
+                
+                <span data-taxonid="4252"  >
+                    <b>bjørkefink</b>&nbsp;<i>Fringilla montifringilla</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4260">1</a></span>
+                <span class="cnt">68.</span>
+                
+                <span data-taxonid="4260"  >
+                    <b>konglebit</b>&nbsp;<i>Pinicola enucleator</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Nær truet" class="redlistabbr redlist_NT">
+                    NT
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4263">6</a></span>
+                <span class="cnt">69.</span>
+                
+                <span data-taxonid="4263"  >
+                    <b>dompap</b>&nbsp;<i>Pyrrhula pyrrhula</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4229">8</a></span>
+                <span class="cnt">70.</span>
+                
+                <span data-taxonid="4229"  >
+                    <b>grønnfink</b>&nbsp;<i>Chloris chloris</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4227">6</a></span>
+                <span class="cnt">71.</span>
+                
+                <span data-taxonid="4227"  >
+                    <b>stillits</b>&nbsp;<i>Carduelis carduelis</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4239">1</a></span>
+                <span class="cnt">72.</span>
+                
+                <span data-taxonid="4239"  >
+                    <b>grønnsisik</b>&nbsp;<i>Spinus spinus</i>&nbsp;(Linnaeus, 1758)
+                </span>
+                <span></span>
+                
+            </li>
+
+            <li class="taxon">
+                <span class="sightingscount"><a href="/ViewSighting/CreateSearch/?parent=10026975&sc.Taxon=4198">6</a></span>
+                <span class="cnt">73.</span>
+                
+                <span data-taxonid="4198"  >
+                    <b>gulspurv</b>&nbsp;<i>Emberiza citrinella</i>&nbsp;Linnaeus, 1758
+                </span>
+                <span></span>
+                
+                <abbr original-title="Sårbar" class="redlistabbr redlist_VU">
+                    VU
+                </abbr>
+                
+            </li>
+
+        </ul></div>
+
+     </div> <!--- Left column ends --->
+    
+    <!--- Right column --->
+     <div class="span-10 last" style="margin:15px 0;" id="rightColumn">
+        <div class="clearfix" style="padding-left: 15px;  border-left:1px solid #eee; font-size:12px;">
+        <ul class="taglist clearfix" style="line-height: 20px;">
+              
+            <li class="header" style='line-height: 20px;'>Søkeparametre:</li>
+            <li class='selectedUserFilter Disabled' original-title='' style='display:inline-block;' data-label='SpeciesGroup_0'><label class='date'><strong><b>Fugler</b></strong><span class='close'></span></label></li><li class='selectedUserFilter ' original-title='' style='display:inline-block;' data-label='LastNumberOfDays_0'><label class='date'><strong>2 siste dagene</strong><span class='close'></span></label></li><li class='selectedUserFilter ' original-title='' style='display:inline-block;' data-label='DontIncludeAssessmentChildSightings_0'><label class='date'><strong>Ikke vis observasjoner som inngår i sammenslåtte funn</strong><span class='close'></span></label></li><li class='selectedUserFilter ' original-title='' style='display:inline-block;' data-label='Area_94460'><label class='date'><strong>Trondheim</strong><span class='close'></span></label></li><li class='selectedUserFilter ' original-title='' style='display:inline-block;' data-label='Area_94531'><label class='date'><strong>Melhus</strong><span class='close'></span></label></li><li class='selectedUserFilter ' original-title='' style='display:inline-block;' data-label='Area_94534'><label class='date'><strong>Malvik</strong><span class='close'></span></label></li>
+        </ul>
+        Her vises hvilke parametre som er benyttet for å få fram søkeresultatet nedenfor. Klikk på fanen "søk funn" for å&nbsp;<a href="/ViewSighting/SearchSighting">endre søket</a>.
+        </div>
+         
+         
+         
+        <div class="tagwrapper">
+           <h4>Utskriftsvennlig versjon</h4>
+            <p>Den utskriftsvennlige listen innholder kun artene og antall funn.</p>
+            <p>
+                <a href="#" onclick="PrintDiv('speciesList' ,'Artsliste');" 
+                    id="printSpeciesList" class="ap2-ui-button-small-submit" style="text-decoration:none;">
+                    Skriv ut en utskriftsvennlig versjon
+                </a>
+                
+            </p><p>
+
+                <a class="ap2-ui-button-small-submit" href="/ViewSighting/DownloadSpeciesList?StoredSearchCriteriasId=10026975&amp;ShowSubspecies=True&amp;ExcludeHybrids=False&amp;ShowUnreportedSpecies=False" style="text-decoration:none;">Eksporter til Excel</a>
+            </p>
+        </div>
+
+        <div class="tagwrapper">
+           <h4>Valg for visning av artslisten</h4>
+                <p>
+           <form method="post">
+                <input name="__RequestVerificationToken" type="hidden" value="w7BKzh2dnvPQZ8avXO3qp8HMLZIKByOzefRIq4o-TacPduBqOD57MGkQ6KVU4rLuHnZui9fSYoa2fxk5qgI8tuhZNzc1" />
+                
+<input id="SearchViewModel_ResetCriteriaLabel" name="SearchViewModel.ResetCriteriaLabel" type="hidden" value="" />
+
+                
+<input id="SearchViewModel_StoredSearchCriterias_Id" name="SearchViewModel.StoredSearchCriterias.Id" type="hidden" value="10026975" />
+
+
+                <label style="display:block; margin-bottom: 10px;">
+<input checked="checked" id="SearchViewModel_ShowSubspecies" name="SearchViewModel.ShowSubspecies" type="checkbox" value="true" /><input name="SearchViewModel.ShowSubspecies" type="hidden" value="false" />
+    <div class="ap2-ui-form-fieldinstruction">[[SpeciesList_ViewSpeciesListViewModel_ShowSubspecies_FieldInstruction]]</div>
+<span class="field-validation-valid" data-valmsg-for="SearchViewModel.ShowSubspecies" data-valmsg-replace="true"></span> Vis underarter for seg selv.</label>
+                <label style="display:block; margin-bottom: 10px;">
+<input id="SearchViewModel_ExcludeHybrids" name="SearchViewModel.ExcludeHybrids" type="checkbox" value="true" /><input name="SearchViewModel.ExcludeHybrids" type="hidden" value="false" />
+    <div class="ap2-ui-form-fieldinstruction">[[SpeciesList_ViewSpeciesListViewModel_ExcludeHybrids_FieldInstruction]]</div>
+<span class="field-validation-valid" data-valmsg-for="SearchViewModel.ExcludeHybrids" data-valmsg-replace="true"></span> Ekskluder hybrider, ubestemte og overordnet taksonomi.</label>
+
+                <label style="display:block; margin-bottom: 10px;">
+<input id="SearchViewModel_ShowUnreportedSpecies" name="SearchViewModel.ShowUnreportedSpecies" type="checkbox" value="true" /><input name="SearchViewModel.ShowUnreportedSpecies" type="hidden" value="false" />
+    <div class="ap2-ui-form-fieldinstruction">[[SpeciesList_ViewSpeciesListViewModel_ShowUnreportedSpecies_FieldInstruction]]</div>
+<span class="field-validation-valid" data-valmsg-for="SearchViewModel.ShowUnreportedSpecies" data-valmsg-replace="true"></span> Inkluder arter uten funn.</label>
+
+    
+
+ 
+    <input type="submit" id="submitbutton" value="Oppdater listen"  name="ViewSighting_ViewSpeciesList_RefreshView" class="ap2-ui-button-small-submit" />    
+   
+           
+            </form>
+                </p>
+        </div>
+
+    </div> <!--- Right column ends --->
+
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $("#main span[data-taxonid]").popupInfoTooltip();
+
+        function attachAfterRender() {
+            $("#taxonlist").find("[data-taxonid]:not(.has_tooltip)").popupInfoTooltip();
+
+            $("ul.taglist [data-taxonid]:not(.has_tooltip)").popupInfoTooltip();
+
+            $("abbr.redlistabbr:not(.redlist_HI, .redlist_SE, .redlist_PH, .redlist_LO, .redlist_NK, .redlist_NR, .redlist_SE.has_tooltip)").tipsy({
+                opacity: 1,
+                gravity: "sw",
+                customClass: "redlist",
+                delayIn: 150,
+                html: true,
+                title: function() {
+                    return '<b>' + $(this).attr('original-title') + '</b> <i>(Rødliste- og fremmedartskategori)</i>';
+                }
+            }).end();
+            $(".redlist_HI:not(.has_tooltip), .redlist_SE:not(.has_tooltip)").tipsy({
+                opacity: 1,
+                gravity: "sw",
+                customClass: "blacklist",
+                delayIn: 150,
+                html: true,
+                title: function() {
+                    return '<b>' + $(this).attr('original-title') + '</b> <i>(Rødliste- og fremmedartskategori)</i>';
+                }
+            }).end();
+            $(".redlist_PH:not(.has_tooltip), .redlist_LO:not(.has_tooltip),.redlist_NK:not(.has_tooltip), .redlist_NR:not(.has_tooltip)").tipsy({
+                opacity: 1,
+                gravity: "sw",
+                customClass: "blacklist grey",
+                delayIn: 150,
+                html: true,
+                title: function () {
+                    return '<b>' + $(this).attr('original-title') + '</b> <i>(Rødliste- og fremmedartskategori)</i>';
+                }
+            }).end();
+        }
+
+        attachAfterRender();
+    });
+
+    function PrintDiv(name, title) {
+        var contents = document.getElementById(name).innerHTML;
+        var frame1 = document.createElement('iframe');
+        frame1.name = "frame1";
+        frame1.style.position = "absolute";
+        frame1.style.top = "-1000000px";
+        document.body.appendChild(frame1);
+        var frameDoc = frame1.contentWindow ? frame1.contentWindow : frame1.contentDocument.document ? frame1.contentDocument.document : frame1.contentDocument;
+        frameDoc.document.open();
+        frameDoc.document.write('<html><head><title>' + title + '</title>');
+        frameDoc.document.write('</head><body><div id="printBody"><p>');
+        var i = 0;
+        $(".taglist li").each(function () {
+            if (i == 0)
+                frameDoc.document.write('<b>' + $(this).html() + '</b> ');
+            else
+                frameDoc.document.write($(this).html() + ', ');
+            i++;
+        });
+        frameDoc.document.write('</p>');
+        frameDoc.document.write(contents);
+        frameDoc.document.write('</div></body></html>');
+        frameDoc.document.close();
+        window.frames["frame1"].focus();
+        window.frames["frame1"].print();
+        return false;
+    }
+</script>
+
+        
+
+    </div>
+    
+
+    
+    <div id="footerwrapper">
+         
+<div id="footer" class="container">
+    <div class="span-6">
+        <div class="footercol">
+            <ul>
+                <li><a class="first" href="/Home/About">Om Artsobservasjoner</a></li>
+                <li><a class="first" href="/Home/Support">Kontakt & Brukerstøtte</a></li>
+                <li><a class="first" href="/Home/TermsOfUse">Brukervilkår</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="span-6">
+        <div class="footercol organisationlinks">
+            <ul>
+                <li class="header"><a href="/Home/Partners">Samarbeidspartnere:</a></li>
+                <li><a href='https://sabima.no/' target='_blank' rel="noopener noreferrer">Sabima</a></li>
+                <li><a href='http://birdlife.no/' target='_blank' rel="noopener noreferrer">BirdLife Norge</a></li>
+                <li><a href='http://www.botaniskforening.no/' target='_blank' rel="noopener noreferrer">Norsk Botanisk Forening</a></li>
+                <li><a href='http://www.soppognyttevekster.no/' target='_blank' rel="noopener noreferrer">Norges sopp- og nyttevekstforbund</a></li>
+                <li><a href='http://www.zoologi.no/' target='_blank' rel="noopener noreferrer">Norsk Zoologisk Forening</a></li>
+                <li><a href='http://www.entomologi.no/' target='_blank' rel="noopener noreferrer">Norsk entomologisk forening</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="span-6">
+        <div class="footercol organisationlinks">
+            <ul>
+                <li class="header">Finansiert av:</li>
+                <li><a href="https://www.regjeringen.no/no/dep/kld/id668/" target="_blank" rel="noopener noreferrer">Klima- og miljødepartementet</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="span-6 last">
+        <a href="https://www.artsdatabanken.no/" id="artsdata-no" class="organisation-logo" title="Artsdatabanken.no">Artsdatabanken</a>
+    </div>
+</div>
+    </div>
+     
+    <div id="contentwrapper_bottom"></div>
+        
+    <div id="systemupdateinfo" class="hiddenfromprinting"><span>Artsobservasjoner 2.13.12 sist oppdatert: <strong>fredag 26. september 2025 12:07(prod-webfe1)</strong></span></div>
+    
+</div>
+<div id="acceptCookiesContainer" style="display:none" class="hiddenfromprinting">
+    <span>Nettstedet bruker cookies</span>
+    <p>
+        Vi bruker cookies (informasjonskapsler) for å forbedre din brukeropplevelse.
+    </p>
+    <button type="button" onclick="acceptCookies()">Jeg godtar</button>
+    <a href="https://artsdatabanken.no/informasjonskapsler" target="_blank" rel="noopener noreferrer">Les mer om vår bruk av cookies</a>
+</div>
+
+
+
+
+
+    
+<script>
+    // Touch Device Detection
+    jQuery(function ($) {
+        //window.addEventListener('touchstart', function(e) {
+        //     //the user touched the screen!
+        //    console.log("Touch");
+        //    e.preventDefault();
+                    
+        //});
+
+        if ('ontouchstart' in document.documentElement) {
+            console.log("touchstart");
+            $('#leftNav >li.tab > a.top').click(function (e) {
+                if ($(this).siblings(".dropdownmenuInner").length) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+            $('#rightNav >li.tab > a.top').click(function (e) {
+                if($(this).parent().hasClass("has-submenu")) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+        }
+    });
+</script>
+
+<script src="/Content/Scripts/MobileDetect/mobile-detect.min.js"></script>
+<script>
+    // small screen detection
+    $(document).ready(function () {
+
+        // set datepicker defaults. Monday as first day and norwegian names
+        var datepickerDefaults = { firstDay: 1 };
+        if ($.cookie('Culture') === 'nb-NO') {
+            datepickerDefaults.dayNamesMin = ["søn", "man", "tir", "ons", "tor", "fre", "lør"];
+        }
+        $.datepicker.setDefaults(datepickerDefaults);
+
+        var md = new MobileDetect(window.navigator.userAgent, parseInt(769, 10));
+
+        if (md.phone() || md.tablet() || md.mobile()) {
+            var artsobsmobilecookie = $.cookie("artsobsmobile");
+            if (true && artsobsmobilecookie !== "2") {
+                $("#artsobsmobilebutton").show();
+                if (artsobsmobilecookie === "1") {
+                    $("#hidemobilebanner").hide();
+                }
+            }
+        }
+        var acceptCookie = $.cookie("AcceptCookies");   
+        if (acceptCookie === "1")
+            $("#acceptCookiesContainer").hide();
+        else
+            $("#acceptCookiesContainer").show();
+    });
+
+    var acceptCookies = function () {
+        // delete cookie $.cookie("AcceptCookies", null, { expires: -1, path: '/' }); 
+        var now = new Date();
+        var expires = new Date(now.getFullYear() + 1, now.getMonth(), now.getDate());
+        $.cookie("AcceptCookies", "1", { expires: expires, path: '/' });
+        $("#acceptCookiesContainer").hide();
+    };
+</script>
+     
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window, document, 'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-74815937-2', 'auto');
+    ga('send', 'pageview');
+    WebFontConfig = {
+    google: { families: [ 'Roboto:400,700&display=swap' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+      wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); 
+</script>
+</body>
+</html>
