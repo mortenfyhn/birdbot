@@ -8,7 +8,9 @@ import time
 from bs4 import BeautifulSoup
 
 parser = argparse.ArgumentParser(description="List bird observations")
-parser.add_argument("--force-fetch", action="store_true", help="Don't use cached HTML response")
+parser.add_argument(
+    "--force-fetch", action="store_true", help="Don't use cached HTML response"
+)
 args = parser.parse_args()
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -16,10 +18,12 @@ url = "https://www.artsobservasjoner.no/ViewSighting/ViewSpeciesList?storedSearc
 # url = "https://www.artsobservasjoner.no/ViewSighting/ViewSpeciesList?storedSearchCriterias=10657922"
 cache_file = os.path.join(script_dir, "cache.html")
 
+
 def cache_is_fresh():
     if not os.path.exists(cache_file):
         return False
     return os.path.getmtime(cache_file) > time.time() - 3600  # 1 hour
+
 
 use_cache = cache_is_fresh() and not args.force_fetch
 
@@ -38,11 +42,7 @@ else:
 soup = BeautifulSoup(html, "html.parser")
 
 # Read and print search parameters
-metadata = {
-    "tidsperiode": None,
-    "locations": [],
-    "annet": []
-}
+metadata = {"tidsperiode": None, "locations": [], "annet": []}
 for li in soup.select("ul.taglist li.selectedUserFilter"):
     key = li.get("data-label", "")
     value = li.select_one("strong")
@@ -54,7 +54,9 @@ for li in soup.select("ul.taglist li.selectedUserFilter"):
         metadata["tidsperiode"] = text
     elif key.startswith("Area_"):
         metadata["locations"].append(text)
-sys.stdout.write(f"Periode: {metadata['tidsperiode']}\nSted: {', '.join(metadata['locations'])}\n\n")
+sys.stdout.write(
+    f"Periode: {metadata['tidsperiode']}\nSted: {', '.join(metadata['locations'])}\n\n"
+)
 
 # Gather birds
 birds = []
@@ -80,5 +82,5 @@ with open(skiplist_path, encoding="utf-8") as f:
 interesting_birds = [b for b in birds if b["common"] not in skiplist]
 
 # Print birds sorted by common name
-for b in sorted(interesting_birds, key=lambda x:x["common"]):
-    sys.stdout.write(f"{b["common"]} ({b["count"]}) -- {b["url"]}\n")
+for b in sorted(interesting_birds, key=lambda x: x["common"]):
+    sys.stdout.write(f"{b['common']} ({b['count']}) -- {b['url']}\n")
