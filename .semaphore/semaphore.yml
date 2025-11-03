@@ -15,4 +15,5 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
+            - ./birds.py
             - ./birdbot.sh
