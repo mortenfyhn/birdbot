@@ -54,7 +54,7 @@ for li in soup.select("ul.taglist li.selectedUserFilter"):
         metadata["tidsperiode"] = text
     elif key.startswith("Area_"):
         metadata["locations"].append(text)
-sys.stdout.write(f"Periode: {metadata["tidsperiode"]}\nSted: {", ".join(metadata["locations"])}\n\n")
+sys.stdout.write(f"Periode: {metadata['tidsperiode']}\nSted: {', '.join(metadata['locations'])}\n\n")
 
 # Gather birds
 birds = []
