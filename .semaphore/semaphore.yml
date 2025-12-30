@@ -1,3 +1,5 @@
+# Set up to run with a Semaphore scheduled task
+
 version: v1.0
 name: Initial Pipeline
 
