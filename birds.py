@@ -83,4 +83,4 @@ interesting_birds = [b for b in birds if b["common"] not in skiplist]
 
 # Print birds sorted by common name
 for b in sorted(interesting_birds, key=lambda x: x["common"]):
-    sys.stdout.write(f"{b['common']} ({b['count']}) -- {b['url']}\n")
+    sys.stdout.write(f"{b['common']} ({b['count']}) — {b['url']}\n")
