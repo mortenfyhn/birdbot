@@ -14,8 +14,8 @@ parser.add_argument(
 args = parser.parse_args()
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-url = "https://www.artsobservasjoner.no/ViewSighting/ViewSpeciesList?storedSearchCriterias=10026975"
-# url = "https://www.artsobservasjoner.no/ViewSighting/ViewSpeciesList?storedSearchCriterias=10657922"
+# url = "https://www.artsobservasjoner.no/ViewSighting/ViewSpeciesList?storedSearchCriterias=10026975"  # Trondheim, Melhus, Malvik
+url = "https://www.artsobservasjoner.no/ViewSighting/ViewSpeciesList?storedSearchCriterias=12664633"  # + Stjørdal, Orkland
 cache_file = os.path.join(script_dir, "cache.html")
 
 
