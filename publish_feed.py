@@ -42,10 +42,10 @@ def load_existing_entries():
 def build_feed(new_entry_content, today):
     root = Element("feed", xmlns=ATOM_NS)
 
-    SubElement(root, "title").text = "Fugler"
-    SubElement(root, "id").text = "tag:fugler,2024:feed"
+    SubElement(root, "title").text = "Fugleobservasjoner"
+    SubElement(root, "id").text = "tag:fugler,2026:feed"
     SubElement(root, "updated").text = datetime.now(timezone.utc).isoformat()
-    SubElement(root, "link", rel="self", href="feed.xml")
+    SubElement(root, "link", rel="self", href="https://mortenfyhn.github.io/birdbot/feed.xml")
 
     # New entry
     entry = SubElement(root, "entry")
