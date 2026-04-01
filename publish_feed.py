@@ -23,8 +23,9 @@ def make_entry_id(d):
 
 def build_entry_html(metadata, birds):
     lines = []
-    lines.append(f"<p>Periode: {metadata['tidsperiode']}<br>")
-    lines.append(f"Sted: {', '.join(metadata['locations'])}</p>")
+    period = metadata["tidsperiode"].lower()
+    locations = ", ".join(metadata["locations"])
+    lines.append(f"<p>De {period} i {locations}.</p>")
     lines.append("<ul>")
     for b in sorted(birds, key=lambda x: x["common"]):
         lines.append(f'<li><a href="{b["url"]}">{b["common"]}</a> ({b["count"]})</li>')
