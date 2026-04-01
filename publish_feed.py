@@ -9,7 +9,9 @@ from xml.etree.ElementTree import Element, SubElement, tostring, parse, indent
 from scrape import fetch_html, parse_observations, filter_birds
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-FEED_PATH = os.path.join(SCRIPT_DIR, "docs", "feed.xml")
+DOCS_DIR = os.path.join(SCRIPT_DIR, "docs")
+FEED_PATH = os.path.join(DOCS_DIR, "feed.xml")
+INDEX_PATH = os.path.join(DOCS_DIR, "index.html")
 MAX_ENTRIES = 50
 ATOM_NS = "http://www.w3.org/2005/Atom"
 
@@ -71,6 +73,28 @@ def build_feed(new_entry_content, today):
     return root
 
 
+def write_index(metadata):
+    locations = ", ".join(metadata["locations"])
+    period = metadata["tidsperiode"].lower()
+    html = f"""<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Birdbot</title>
+  <link rel="alternate" type="application/atom+xml" title="Birdbot" href="feed.xml">
+</head>
+<body>
+  <h1>Birdbot</h1>
+  <p>Fugleobservasjoner fra {locations}, {period}.</p>
+  <p><a href="feed.xml">Abonner (RSS)</a></p>
+</body>
+</html>
+"""
+    with open(INDEX_PATH, "w", encoding="utf-8") as f:
+        f.write(html)
+
+
 def main():
     html = fetch_html()
     metadata, birds = parse_observations(html)
@@ -89,6 +113,7 @@ def main():
     with open(FEED_PATH, "w", encoding="utf-8") as f:
         f.write(xml_bytes)
 
+    write_index(metadata)
     sys.stderr.write(f"Feed updated: {FEED_PATH}\n")
 
 
