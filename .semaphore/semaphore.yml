@@ -18,5 +18,5 @@ blocks:
           commands:
             - pip install bs4
             - checkout
-            - ./birds.py
-            - ./birdbot.sh
+            - ./scrape.py
+            - ./publish_telegram.sh

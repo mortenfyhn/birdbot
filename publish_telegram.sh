@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-birds=$("./birds.py")
+birds=$("./scrape.py")
 [ -z "${birds}" ] && exit 0
 
 curl -s "https://api.telegram.org/bot${TOKEN}/sendMessage" \

@@ -10,14 +10,14 @@ This is a bird observation notification system that scrapes data from artsobserv
 
 The system consists of two main scripts:
 
-1. **birds.py** - Main scraper that:
+1. **scrape.py** - Main scraper that:
    - Fetches HTML from artsobservasjoner.no (with 1-hour caching)
    - Parses bird observations using BeautifulSoup
    - Filters out common birds using the `skiplist` file
    - Outputs formatted list of interesting birds to stdout
 
-2. **birdbot.sh** - Telegram notification wrapper that:
-   - Runs birds.py and captures output
+2. **publish_telegram.sh** - Telegram notification wrapper that:
+   - Runs scrape.py and captures output
    - Sends results to Telegram using bot API
    - Requires TOKEN and CHAT_ID environment variables
 
@@ -32,19 +32,19 @@ pip install bs4 requests
 
 Run the scraper:
 ```bash
-./birds.py
+./scrape.py
 ```
 
 Force fresh data (bypass cache):
 ```bash
-./birds.py --force-fetch
+./scrape.py --force-fetch
 ```
 
 Send to Telegram (requires env vars):
 ```bash
 export TOKEN="your-telegram-bot-token"
 export CHAT_ID="your-chat-id"
-./birdbot.sh
+./publish_telegram.sh
 ```
 
 ## Key Files
@@ -55,7 +55,7 @@ export CHAT_ID="your-chat-id"
 
 ## Important Implementation Details
 
-- The script uses a hardcoded search URL (line 17 in birds.py) that references a stored search on artsobservasjoner.no
+- The script uses a hardcoded search URL (in scrape.py) that references a stored search on artsobservasjoner.no
 - Bird names in the skiplist must exactly match the Norwegian common names from the website
 - The cache mechanism checks file modification time; cache is considered stale after 1 hour
 - Output format includes period, location, and bird list with sighting counts and URLs
