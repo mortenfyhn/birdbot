@@ -74,7 +74,7 @@ def build_feed(new_entry_content, today):
 
 
 def write_index(metadata):
-    locations = ", ".join(metadata["locations"])
+    location_items = "\n".join(f"    <li>{loc}</li>" for loc in metadata["locations"])
     period = metadata["tidsperiode"].lower()
     html = f"""<!DOCTYPE html>
 <html lang="nb">
@@ -86,7 +86,11 @@ def write_index(metadata):
 </head>
 <body>
   <h1>Birdbot</h1>
-  <p>Fugleobservasjoner fra {locations}, de {period}.</p>
+  <p>Interessante fugleobservasjoner fra</p>
+  <ul>
+{location_items}
+  </ul>
+  <p>de {period}.</p>
   <p><a href="feed.xml">Abonner (RSS)</a></p>
 </body>
 </html>
