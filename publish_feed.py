@@ -86,11 +86,10 @@ def write_index(metadata):
 </head>
 <body>
   <h1>Birdbot</h1>
-  <p>Interessante fugleobservasjoner fra</p>
+  <p>Interessante fugleobservasjoner de {period} i</p>
   <ul>
 {location_items}
   </ul>
-  <p>de {period}.</p>
   <p><a href="feed.xml">Abonner (RSS)</a></p>
 </body>
 </html>
