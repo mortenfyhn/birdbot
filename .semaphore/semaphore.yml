@@ -9,14 +9,18 @@ agent:
     os_image: ubuntu2204
 
 blocks:
-  - name: 'Block #1'
+  - name: 'Publish feed'
     task:
       secrets:
         - name: "Birdbot Telegram token"
       jobs:
-        - name: 'Job #1'
+        - name: 'Update Atom feed'
           commands:
-            - pip install bs4
+            - pip install bs4 requests
             - checkout
-            - ./scrape.py
-            - ./publish_telegram.sh
+            - python publish_feed.py
+            - cd "$SEMAPHORE_GIT_DIR"
+            - git add docs/feed.xml
+            - 'git diff --cached --quiet && echo "No changes" && exit 0'
+            - git commit -m "Update feed"
+            - git push origin master
