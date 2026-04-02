@@ -11,8 +11,6 @@ agent:
 blocks:
   - name: 'Publish feed'
     task:
-      secrets:
-        - name: "Birdbot Telegram token"
       jobs:
         - name: 'Update Atom feed'
           commands:
@@ -20,7 +18,7 @@ blocks:
             - checkout
             - python publish_feed.py
             - cd "$SEMAPHORE_GIT_DIR"
-            - git add docs/feed.xml
+            - git add docs/feed.xml docs/index.html
             - 'git diff --cached --quiet && echo "No changes" && exit 0'
             - git commit -m "Update feed"
             - git push origin master
