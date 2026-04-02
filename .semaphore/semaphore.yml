@@ -11,6 +11,8 @@ agent:
 blocks:
   - name: 'Publish feed'
     task:
+      secrets:
+        - name: semaphore-birdbot-deploy
       jobs:
         - name: 'Update Atom feed'
           commands:
