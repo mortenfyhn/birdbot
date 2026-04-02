@@ -18,5 +18,5 @@ blocks:
             - checkout
             - python publish_feed.py
             - git add docs/feed.xml docs/index.html
-            - git commit -m "Update feed" || :
-            - git push origin master || :
+            - 'git commit -m "Update feed" || :'
+            - 'git push origin master || :'
