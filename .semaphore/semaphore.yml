@@ -21,4 +21,5 @@ blocks:
             - python publish_feed.py
             - git add docs/feed.xml docs/index.html
             - 'git commit -m "Update feed" ||:'
-            - git push origin master
+            - git remote set-url origin git@github.com:mortenfyhn/birdbot.git
+            - GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519" git push origin master
