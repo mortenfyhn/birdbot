@@ -22,6 +22,6 @@ blocks:
             - git add docs/feed.xml docs/index.html
             - git config --global user.email "morten.fyhn.amundsen@gmail.com"
             - git config --global user.name "Morten Fyhn Amundsen"
-            - 'git commit -m "Update feed" ||:'
+            - 'git commit -m "Update feed [skip ci]" ||:'
             - chmod 600 ~/.ssh/id_ed25519
             - GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519" git push origin master
