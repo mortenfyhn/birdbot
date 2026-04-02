@@ -18,4 +18,5 @@ blocks:
             - checkout
             - python publish_feed.py
             - git add docs/feed.xml docs/index.html
-            - 'if git diff --cached --quiet; then echo "No changes"; else git commit -m "Update feed" && git push origin master; fi'
+            - git commit -m "Update feed" || :
+            - git push origin master || :
