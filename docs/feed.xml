@@ -2,13 +2,28 @@
 <feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns="http://www.w3.org/2005/Atom">
   <title>Fugleobservasjoner</title>
   <id>tag:fugler,2026:feed</id>
-  <updated>2026-04-22T22:55:58.500961+00:00</updated>
+  <updated>2026-04-23T22:55:52.375381+00:00</updated>
   <link rel="self" href="https://mortenfyhn.github.io/birdbot/feed.xml" />
   <entry>
-    <title>Observasjoner 2026-04-22</title>
-    <id>tag:fugler,2026-04-22:observations</id>
-    <updated>2026-04-22T22:55:58.500975+00:00</updated>
+    <title>Observasjoner 2026-04-23</title>
+    <id>tag:fugler,2026-04-23:observations</id>
+    <updated>2026-04-23T22:55:52.375395+00:00</updated>
     <content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3451"&gt;amerikablesand&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3688"&gt;grønlandsmåke&lt;/a&gt; (3)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4245"&gt;kjernebiter&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4563"&gt;ringtrost&lt;/a&gt; (2)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3795"&gt;skogsnipe&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3466"&gt;snadderand&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3626"&gt;triel&lt;/a&gt; (1)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <ns0:entry>
+    <ns0:title>Observasjoner 2026-04-22</ns0:title>
+    <ns0:id>tag:fugler,2026-04-22:observations</ns0:id>
+    <ns0:updated>2026-04-22T22:55:58.500975+00:00</ns0:updated>
+    <ns0:content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3451"&gt;amerikablesand&lt;/a&gt; (4)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3964"&gt;dvergdykker&lt;/a&gt; (1)&lt;/li&gt;
@@ -23,8 +38,8 @@
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3466"&gt;snadderand&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4531"&gt;svartrødstjert&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4010"&gt;tyrkerdue&lt;/a&gt; (1)&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
+&lt;/ul&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Observasjoner 2026-04-21</ns0:title>
     <ns0:id>tag:fugler,2026-04-21:observations</ns0:id>
