@@ -2,13 +2,37 @@
 <feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns="http://www.w3.org/2005/Atom">
   <title>Fugleobservasjoner</title>
   <id>tag:fugler,2026:feed</id>
-  <updated>2026-05-18T22:55:10.251217+00:00</updated>
+  <updated>2026-05-19T22:55:12.510225+00:00</updated>
   <link rel="self" href="https://mortenfyhn.github.io/birdbot/feed.xml" />
   <entry>
-    <title>Observasjoner 2026-05-18</title>
-    <id>tag:fugler,2026-05-18:observations</id>
-    <updated>2026-05-18T22:55:10.251234+00:00</updated>
+    <title>Observasjoner 2026-05-19</title>
+    <id>tag:fugler,2026-05-19:observations</id>
+    <updated>2026-05-19T22:55:12.510239+00:00</updated>
     <content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4469"&gt;bøksanger&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4578"&gt;dvergspett&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4340"&gt;gulerle&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4442"&gt;gulsanger&lt;/a&gt; (2)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4483"&gt;hagesanger&lt;/a&gt; (2)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4622"&gt;kattugle&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4245"&gt;kjernebiter&lt;/a&gt; (2)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3463"&gt;knekkand&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4491"&gt;møller&lt;/a&gt; (3)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3738"&gt;polarsnipe&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4533"&gt;rødstjert&lt;/a&gt; (3)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3795"&gt;skogsnipe&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3923"&gt;storlom&lt;/a&gt; (4)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4489"&gt;tornsanger&lt;/a&gt; (3)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4329"&gt;trepiplerke&lt;/a&gt; (2)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3654"&gt;vipe&lt;/a&gt; (2)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <ns0:entry>
+    <ns0:title>Observasjoner 2026-05-18</ns0:title>
+    <ns0:id>tag:fugler,2026-05-18:observations</ns0:id>
+    <ns0:updated>2026-05-18T22:55:10.251234+00:00</ns0:updated>
+    <ns0:content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4565"&gt;duetrost&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3633"&gt;dverglo&lt;/a&gt; (1)&lt;/li&gt;
@@ -24,8 +48,8 @@
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4489"&gt;tornsanger&lt;/a&gt; (3)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4329"&gt;trepiplerke&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4336"&gt;vintererle&lt;/a&gt; (3)&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
+&lt;/ul&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Observasjoner 2026-05-17</ns0:title>
     <ns0:id>tag:fugler,2026-05-17:observations</ns0:id>
