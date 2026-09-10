@@ -2,13 +2,34 @@
 <feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns="http://www.w3.org/2005/Atom">
   <title>Fugleobservasjoner</title>
   <id>tag:fugler,2026:feed</id>
-  <updated>2026-09-09T22:56:06.322204+00:00</updated>
+  <updated>2026-09-10T22:55:58.263834+00:00</updated>
   <link rel="self" href="https://mortenfyhn.github.io/birdbot/feed.xml" />
   <entry>
-    <title>Observasjoner 2026-09-09</title>
-    <id>tag:fugler,2026-09-09:observations</id>
-    <updated>2026-09-09T22:56:06.322229+00:00</updated>
+    <title>Observasjoner 2026-09-10</title>
+    <id>tag:fugler,2026-09-10:observations</id>
+    <updated>2026-09-10T22:55:58.263846+00:00</updated>
     <content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3786"&gt;brushane&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4231"&gt;gråsisik&lt;/a&gt; (3)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4465"&gt;gulbrynsanger&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4622"&gt;kattugle&lt;/a&gt; (2)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4245"&gt;kjernebiter&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3521"&gt;lappfiskand&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4491"&gt;møller&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3453"&gt;skjeand&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4320"&gt;skjærpiplerke&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3466"&gt;snadderand&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3923"&gt;storlom&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4489"&gt;tornsanger&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4010"&gt;tyrkerdue&lt;/a&gt; (1)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <ns0:entry>
+    <ns0:title>Observasjoner 2026-09-09</ns0:title>
+    <ns0:id>tag:fugler,2026-09-09:observations</ns0:id>
+    <ns0:updated>2026-09-09T22:56:06.322229+00:00</ns0:updated>
+    <ns0:content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4516"&gt;blåstrupe&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3786"&gt;brushane&lt;/a&gt; (2)&lt;/li&gt;
@@ -20,8 +41,8 @@
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4005"&gt;skogdue&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3466"&gt;snadderand&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3907"&gt;vandrefalk&lt;/a&gt; (1)&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
+&lt;/ul&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Observasjoner 2026-09-08</ns0:title>
     <ns0:id>tag:fugler,2026-09-08:observations</ns0:id>
@@ -1043,21 +1064,6 @@
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4489"&gt;tornsanger&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4010"&gt;tyrkerdue&lt;/a&gt; (2)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=1100374"&gt;tyvjo&lt;/a&gt; (1)&lt;/li&gt;
-&lt;/ul&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:title>Observasjoner 2026-07-22</ns0:title>
-    <ns0:id>tag:fugler,2026-07-22:observations</ns0:id>
-    <ns0:updated>2026-07-22T22:55:29.127014+00:00</ns0:updated>
-    <ns0:content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3786"&gt;brushane&lt;/a&gt; (2)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3633"&gt;dverglo&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4231"&gt;gråsisik&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4340"&gt;gulerle&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3738"&gt;polarsnipe&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3923"&gt;storlom&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4225"&gt;tornirisk&lt;/a&gt; (2)&lt;/li&gt;
 &lt;/ul&gt;</ns0:content>
   </ns0:entry>
 </feed>
