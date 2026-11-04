@@ -2,13 +2,28 @@
 <feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns="http://www.w3.org/2005/Atom">
   <title>Fugleobservasjoner</title>
   <id>tag:fugler,2026:feed</id>
-  <updated>2026-11-03T22:55:22.185300+00:00</updated>
+  <updated>2026-11-04T22:55:22.495597+00:00</updated>
   <link rel="self" href="https://mortenfyhn.github.io/birdbot/feed.xml" />
   <entry>
-    <title>Observasjoner 2026-11-03</title>
-    <id>tag:fugler,2026-11-03:observations</id>
-    <updated>2026-11-03T22:55:22.185314+00:00</updated>
+    <title>Observasjoner 2026-11-04</title>
+    <id>tag:fugler,2026-11-04:observations</id>
+    <updated>2026-11-04T22:55:22.495617+00:00</updated>
     <content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3599"&gt;alke&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4231"&gt;gråsisik&lt;/a&gt; (6)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3925"&gt;islom&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4622"&gt;kattugle&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4260"&gt;konglebit&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3618"&gt;lomvi&lt;/a&gt; (1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4253"&gt;ub. korsnebb&lt;/a&gt; (2)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <ns0:entry>
+    <ns0:title>Observasjoner 2026-11-03</ns0:title>
+    <ns0:id>tag:fugler,2026-11-03:observations</ns0:id>
+    <ns0:updated>2026-11-03T22:55:22.185314+00:00</ns0:updated>
+    <ns0:content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3599"&gt;alke&lt;/a&gt; (2)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3478"&gt;dverggås&lt;/a&gt; (1)&lt;/li&gt;
@@ -23,8 +38,8 @@
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4217"&gt;snøspurv&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3607"&gt;teist&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4253"&gt;ub. korsnebb&lt;/a&gt; (3)&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
+&lt;/ul&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:title>Observasjoner 2026-11-02</ns0:title>
     <ns0:id>tag:fugler,2026-11-02:observations</ns0:id>
@@ -948,22 +963,6 @@
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=1100824"&gt;kanadagås x grågås&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3923"&gt;storlom&lt;/a&gt; (1)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3767"&gt;svarthalespove&lt;/a&gt; (2)&lt;/li&gt;
-&lt;/ul&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:title>Observasjoner 2026-09-15</ns0:title>
-    <ns0:id>tag:fugler,2026-09-15:observations</ns0:id>
-    <ns0:updated>2026-09-15T22:56:02.587545+00:00</ns0:updated>
-    <ns0:content type="html">&lt;p&gt;De 2 siste dagene i Trondheim, Melhus, Malvik, Stjørdal, Orkland.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3870"&gt;fjellvåk&lt;/a&gt; (2)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=4494"&gt;hauksanger&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3853"&gt;hønsehauk&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3738"&gt;polarsnipe&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3453"&gt;skjeand&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3767"&gt;svarthalespove&lt;/a&gt; (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3649"&gt;tundralo&lt;/a&gt; (2)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.artsobservasjoner.no/ViewSighting/CreateSearch/?parent=12664633&amp;sc.Taxon=3907"&gt;vandrefalk&lt;/a&gt; (3)&lt;/li&gt;
 &lt;/ul&gt;</ns0:content>
   </ns0:entry>
 </feed>
